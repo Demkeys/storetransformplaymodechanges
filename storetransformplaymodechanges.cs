@@ -26,7 +26,7 @@ public class TransformChanges :  Editor
 	static Dictionary<int, Vector3> allScalesDict; // Stores gameobject InstanceIDs and scales
 
 	// This method should be called when Editor is in PlayMode. It stores the Position, Rotation and Scale of all Gameobjects in the scene.
-	[MenuItem("MyTools/Store Transform PlayMode Changes")]
+	[MenuItem("My Tools/Store Transform PlayMode Changes")]
 	public static void StoreChanges()
 	{
 		// If Editor is in PlayMode
@@ -54,7 +54,7 @@ public class TransformChanges :  Editor
 
 	// This method should be called after exiting PlayMode. It sets the Position, Rotation and Scale of all Gameobjects back to
 	// whatever they were when the Editor was in PlayMode.
-	[MenuItem("MyTools/Apply Transform PlayMode Changes")]
+	[MenuItem("My Tools/Apply Transform PlayMode Changes")]
 	public static void ApplyChanges()
 	{
 		// If Editor is not in PlayMode
