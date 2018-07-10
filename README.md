@@ -1,4 +1,4 @@
-#Store Transform PlayMode Changes Tool#
+# Store Transform PlayMode Changes Tool #
 
 This is a simple tool that allows you to store any changes made to the Position, Rotation and Scale of all Gameobjects in the scene
 during PlayMode, and apply those changes to all the Gameobjects after exiting PlayMode. Supports Undo and Redo operations as well.
